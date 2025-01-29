@@ -104,7 +104,73 @@
             </li>
           </ul>
         </section>
-        <section class="reservation" id="book-a-table"></section>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a table</h2>
+          <div class="form-container">
+            <form class="reservation__form form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name *</label>
+                <input
+                  type="text"
+                  required
+                  class="form__input"
+                  id="name"
+                  name="name"
+                  placeholder="Name Surname"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="number" class="form__label"
+                  >Number of guests *</label
+                >
+                <input
+                  type="number"
+                  required
+                  class="form__input"
+                  id="number"
+                  name="number-of-guests"
+                  placeholder="1-8"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="date" class="form__label">Date & time *</label>
+                <input
+                  type="datetime-local"
+                  required
+                  class="form__input"
+                  id="date"
+                  name="date-time"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="email" class="form__label">Your email *</label>
+                <input
+                  type="email"
+                  required
+                  class="form__input"
+                  id="email"
+                  name="email"
+                  placeholder="email@email.com"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <button type="submit" class="form__button">Book a table</button>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="i-agree" class="form__label">
+                  <input
+                    type="checkbox"
+                    required
+                    class="form__input form__input-checkbox"
+                    name="i-agree"
+                    id="i-agree"
+                  />
+                  I agree with the terms of use</label
+                >
+              </fieldset>
+            </form>
+          </div>
+        </section>
         <section class="menu" id="the-menu"></section>
         <section class="about" id="contact-us"></section>
       </main>
