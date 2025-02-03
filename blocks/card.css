@@ -1,15 +1,18 @@
 .card {
   padding: 0;
   margin: 0;
-  width: 540px;
 }
 
 .card__title {
+  font-family: "Inter", Arial, sans-serif;
   margin: 0 0 32px;
-  list-style-type: none;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+}
+
+.card__list {
+  padding: 0;
 }
 
 .card__list-item {
