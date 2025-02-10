@@ -19,3 +19,6 @@ adding a `review` section. Which should also have an option to submit customer p
 - _Allows_ customers to express themselves
 - Gives _potential_ customers a chance to check it before coming in.
 - _Boost_ internet ratings
+
+## Project link:
+  [https://github.com/tamianna/se_project_coffeeshop.git]
