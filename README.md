@@ -21,4 +21,4 @@ adding a `review` section. Which should also have an option to submit customer p
 - _Boost_ internet ratings
 
 ## Project link:
-  [https://github.com/tamianna/se_project_coffeeshop.git]
+ https://tamianna.github.io/se_project_coffeeshop/
